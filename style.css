@@ -1,0 +1,90 @@
+@import url(https://fonts.googleapis.com/css?family=Poppins:100,100italic,200,200italic,300,300italic,regular,italic,500,500italic,600,600italic,700,700italic,800,800italic,900,900italic);
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #f0f0f0;
+  font-family: "Poppins", sans-serif;
+}
+
+.container2 {
+  width: 350px;
+  background-color: #fff;
+  box-shadow: 0 1px 4.8rem rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  border-radius: 4px;
+  transition: all 0.3s ease-in;
+}
+.container2:hover {
+  box-shadow: 0 1px 4.8rem rgba(0, 0, 0, 0.2);
+}
+
+.image_container {
+  height: 12rem;
+  background-color: #f76707;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.userImage {
+  display: block;
+  width: 5rem;
+  height: 5rem;
+  border-radius: 50%;
+  object-fit: cover;
+  object-position: center;
+  border: 3px solid white;
+  margin-bottom: 1rem;
+}
+
+.user_info {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+  margin: 1rem;
+  padding: 0.8rem;
+  background-color: #fff;
+  border-radius: 4px;
+  color: #495057;
+  box-shadow: 0 1px 4.8rem rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+.user_info:hover {
+  box-shadow: 0 1px 4.8rem rgba(0, 0, 0, 0.2);
+  color: #fff;
+  background-color: #f76707;
+}
+.user_info:hover .userIcon {
+  color: #fff;
+}
+.userIcon {
+  font-size: 1.2rem;
+  color: #495057;
+}
+.c-userName {
+  font-size: 1.2rem;
+  display: inline-block;
+  letter-spacing: 1px;
+  color: #fff;
+}
+.c-userIcon {
+  color: #fff;
+}
+
+.error {
+  text-align: center;
+  background-color: #f76707;
+  color: #f0f0f0;
+  font-size: 1rem;
+  padding: 0.5rem;
+}
